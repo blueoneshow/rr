@@ -1,0 +1,12 @@
+<html>
+        <head>
+        </head>
+        <body>
+          <h1> 全球五大怪食</h1>
+          <li><a href="/post">新增留言</a></li>
+          <li><a href="/board">觀看歷史留言</a></li>
+                {% for friend in friends %}
+                <p><a href="{{friend}}">{{friend}}</a></p>
+                {% endfor %}
+       </body>
+</html>
